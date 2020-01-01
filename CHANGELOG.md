@@ -18,3 +18,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - released of the initial version
 - logic to build container image and push it to github Packages.
+
+## [1.0.1] - 2019-12-31
+
+### Changed
+
+- Fix a bug in the github actions logic

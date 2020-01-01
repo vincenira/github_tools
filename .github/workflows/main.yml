@@ -8,7 +8,7 @@ jobs:
     name: Build container
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - name: build and push to github packages
       env:
         DOCKER_HUB: ${{ secrets.DOCKER_HUB }}
       run: |
