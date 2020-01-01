@@ -33,10 +33,12 @@ The image built from this tutorial can be run on your own docker engine. To inst
 Or to install docker on Linux, you can use the following link [Install Docker Centos](https://docs.docker.com/v17.12/install/linux/docker-ce/centos/#install-docker-ce-1) or [Install Docker Ubuntu](https://docs.docker.com/v17.12/install/linux/docker-ce/ubuntu/)
 
 After installation, you can run the container as following.
+
 ```bash
-$ docker run -p 5000:5000 -d IMAGE_NAME:TAG_NAME 
+$ docker run -p 5000:5000 -d IMAGE_NAME:TAG_NAME
+
 ```
 
 ## License
 
-[GPL-v3.0](https://choosealicense.com/licenses/gpl-3.0/)
+[MIT](https://choosealicense.com/licenses/mit/)

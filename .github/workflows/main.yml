@@ -1,0 +1,22 @@
+name: A workflow for my Hello World Flask
+on: 
+  push:
+    branches:
+    - master
+jobs:
+  build:
+    name: Build container
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+      env:
+        DOCKER_HUB: ${{ secrets.DOCKER_HUB }}
+      run: |
+        ls -l
+        echo "Docker login"
+        docker login docker.pkg.github.com --username $DOCKER_HUB
+        echo "Running Build..."
+        docker build . -t docker.pkg.github.com/$DOCKER_HUB/github_tools/helloWorld:1.0.0
+        echo "Pushing image..."
+        docker push docker.pkg.github.com/$DOCKER_HUB/github_tools/helloWorld:1.0.0
+        echo "Done!"
