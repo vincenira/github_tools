@@ -24,3 +24,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Fix a bug in the github actions logic
+
+## [1.0.2] - 2020-01-01
+
+### Changed 
+
+- Adding authentication to github repo
+- adding a dockerfile
+- Adding a requirements.txt
