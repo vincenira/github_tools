@@ -15,9 +15,9 @@ jobs:
       run: |
         ls -l
         echo "Docker login"
-        docker login -u $DOCKER_HUB -p TOKEN docker.pkg.github.com
+        echo "$TOKEN" | docker login -u $DOCKER_HUB --password-stdin docker.pkg.github.com
         echo "Running Build..."
-        docker build . -t docker.pkg.github.com/$DOCKER_HUB/tutorial_github/helloworld:1.0.0
+        docker build ../../. -t docker.pkg.github.com/$DOCKER_HUB/tutorial_github/helloworld:1.0.0
         echo "Pushing image..."
         docker push docker.pkg.github.com/$DOCKER_HUB/tutorial_github/helloworld:1.0.0
         echo "Done!"
