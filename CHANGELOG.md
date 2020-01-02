@@ -33,3 +33,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - adding a dockerfile
 - Adding a requirements.txt
 - BugFix in the tag name for docker image
+- BugFix in the pulling process of the repo
+- Adding reference for pulling in workflows
