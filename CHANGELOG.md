@@ -32,3 +32,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Adding authentication to github repo
 - adding a dockerfile
 - Adding a requirements.txt
+- BugFix in the tag name for docker image
