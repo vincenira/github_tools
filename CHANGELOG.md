@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.2] - 2020-01-01
 
-### Changed 
+### Changed
 
 - Adding authentication to github repo
 - adding a dockerfile
@@ -35,3 +35,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - BugFix in the tag name for docker image
 - BugFix in the pulling process of the repo
 - Adding reference for pulling in workflows
+
+## [1.0.3] - 2020-10-03
+
+### Changed
+
+- Adding a different 404 error.
+- Adding a small test case

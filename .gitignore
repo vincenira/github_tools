@@ -132,3 +132,7 @@ settings.json
 
 #vscode
 .vscode/
+
+# Pipfile
+Pipfile
+Pipfile.lock
